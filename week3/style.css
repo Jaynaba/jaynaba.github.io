@@ -8,33 +8,28 @@ body
 @keyframes animatedbackground{
 	0%
 	{
-		background-image: url("red.jpg");
-			background-repeat: repeat-x;
+		background-color: #fad390;
+
 	}
 	20% 
 	{
-		background-image: url("pink.jpg");
-			background-repeat: repeat-x;
+		background-color: #f6b93b;
 	}
 	40%
 	{
-		background-image: url("red.jpg");
-			background-repeat: repeat-x;
+		background-color: #fa983a;
 	}
 	60%
 	{
-		background-image: url("pink.jpg");
-			background-repeat: repeat-x;
+		background-color: #e58e26;
 	}
 	80%
 	{
-		background-image: url("red.jpg");
-			background-repeat: repeat-x;
+		background-color: #f8c291;
 	}
 	100%
 	{
-		background-image: url("pink.jpg");
-			background-repeat: repeat-x;
+		background-color: #e55039;
 	}
 }
 .title{
