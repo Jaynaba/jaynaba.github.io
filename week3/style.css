@@ -2,33 +2,39 @@ body
 {
 	margin: 0;
 	padding: 0;
-	animation: bgcolor infinite 20s;
+	animation: animatedbackground infinite 20s;
 }
 
-@keyframes bgcolor{
+@keyframes animatedbackground{
 	0%
 	{
-		background:#f6b93b;
+		background-image: url("red.jpg");
+			background-repeat: repeat-x;
 	}
 	20% 
 	{
-		background:#fa983a ;
+		background-image: url("pink.jpg");
+			background-repeat: repeat-x;
 	}
 	40%
 	{
-		background:#e58e26;
+		background-image: url("red.jpg");
+			background-repeat: repeat-x;
 	}
 	60%
 	{
-		background:#e55039 ;
+		background-image: url("pink.jpg");
+			background-repeat: repeat-x;
 	}
 	80%
 	{
-		background:#eb2f06 ;
+		background-image: url("red.jpg");
+			background-repeat: repeat-x;
 	}
 	100%
 	{
-		background:#b71540 ;
+		background-image: url("pink.jpg");
+			background-repeat: repeat-x;
 	}
 }
 .title{
