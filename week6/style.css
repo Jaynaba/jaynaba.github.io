@@ -1,0 +1,45 @@
+body {
+	background-color: white;
+}
+
+.a {
+ border: 1px solid rgb(50, 50, 50);
+  grid-column: 1;
+  grid-row:  1;
+  height: 400px;
+  width: 1470px;
+}
+.a:hover {
+ background-image: url("abundance.gif");
+}
+
+.b {
+ border: 1px solid rgb(50, 50, 50);
+  grid-column: 2;
+  grid-row:  2;
+  height: 400px;
+  width: 1470px;
+}
+.b:hover {
+ background-image: url("blink.gif");
+}
+.c {
+ border: 1px solid rgb(50, 50, 50);
+  grid-column: 3;
+  grid-row:  3;
+  height: 400px;
+  width: 1470px;
+}
+.c:hover {
+ background-image: url("brains.gif");
+}
+.d {
+ border: 1px solid rgb(50, 50, 50);
+  grid-column: 4;
+  grid-row:  4;
+  height: 400px;
+  width: 1470px;
+}
+.d:hover {
+ background-image: url("luv4.gif");
+}
