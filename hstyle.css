@@ -1,0 +1,21 @@
+body {
+	background-image: url("mainpage.gif");
+
+}
+
+.title {
+
+	font-size: 100px;
+	line-height: 7;
+	color: 	#FFFFFF;
+	font-family: arial;
+	stroke: black;
+	box-sizing: border-box;	
+}
+
+.weeks {
+	background-color: white;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2vh;;
+}
