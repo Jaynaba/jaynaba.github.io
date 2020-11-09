@@ -85,5 +85,5 @@ let blkbutt = document.querySelector("#black");
 blkbutt.addEventListener('click', blkfunc);
 function blkfunc(){
  blkbod.style.backgroundColor= "#ffffff";
- blkText.textContent = "BLACK. the color of mystery, fear and strength. of authority and formality. blue often represents death and evil as well as seriousness and sophistication.";
+ blkText.textContent = "BLACK. the color of mystery, fear and strength. of authority and formality. black often represents death and evil as well as seriousness and sophistication.";
 }
