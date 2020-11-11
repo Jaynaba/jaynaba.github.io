@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.three button {
+  background-color: #000000; 
+  border: 1px solid red; 
+  color: white; 
+  font-family: "Courier New";
+  padding: 20px 48px;
+  cursor: pointer; 
+  float: left; 
+   text-align: center;
+	
+}
+
+#par1  {
+	position: absolute;
+  top: 80px;
+  left: 16px;
+  right: 70%;
+	font-family: "Courier New";
+  font-size: 16px;
+	 font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
