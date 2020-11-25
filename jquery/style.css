@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body{
+	background-color: #E2E1E0
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.subtitle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family:  "Haettenschweiler";
+	font-size: 30px;
+}
+
+.pages button {
+  background-color: #EFCA18; 
+  border: 2px solid red; 
+  color: black; 
+  font-family: "Haettenschweiler";
+  padding: 10px 24px;
+  cursor: pointer; 
+  float: left; 
+   text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
