@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/*to get rid of gaps on page from sections to margin */
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.heading {
+	width:100vw;
+	height: 20vh;
+	background:#FDFBF3;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.video {
+	width:100vw;
+	height: 80vh;
+	background: black;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.content {
+	width:100vw;
+	height: 80vh;
+	background: #66C1E3;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.footing {
+	width:100vw;
+	height: 20vh;
+	background: #E12480;
+	padding: 0vw;
+	padding: 0vh;
+}
