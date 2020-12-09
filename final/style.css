@@ -6,16 +6,37 @@ body {
     text-align: center;
 }
 
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
+.work button {
+	 background-color: #E8D900; 
+  border: 2px solid black; 
+  color: black; 
+  font-family: "rockwell";
+  padding: 30px 80px;
+  cursor: pointer; 
+  float: left; 
+  text-align: center;	
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.work button:hover {
+	background-color: #0DB3EB
+}
+
+.right
 .heading {
 	width:100vw;
-	height: 20vh;
-	background:#FDFBF3;
+	height: 10vh;
+	background:white;
 	padding: 0vw;
 	padding: 0vh;
 }
@@ -30,16 +51,96 @@ body {
 
 .content {
 	width:100vw;
-	height: 80vh;
-	background: #66C1E3;
+	height: 100vh;
+	background: #F8F7F4;
 	padding: 0vw;
 	padding: 0vh;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 750px 750px 750px;;
+	grid-template-rows: 400px 400px 400px;
 }
 
+.pics {
+	background-color: aquamarine;
+	width: 70vw;
+	height: 80vh;
+	display: block;
+	margin-left: 200px;	
+}
+.one {
+  background-image: url("chlo.jpg");
+  grid-column: 1;
+  grid-row: 1;
+}
+
+
+.two {
+  background-image: url("din.jpg");
+  grid-column: 2;
+  grid-row: 1;
+}
+
+
+.three {
+   background-image: url(glob.jpg);
+  grid-column: 1;
+  grid-row: 2;
+}
+.four {
+    background-image: url(riss.jpg);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.content2 {
+	width:100vw;
+	height: 100vh;
+	background: #F8F7F4;
+	padding: 0vw;
+	padding: 0vh;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 360px 360px ;;
+	grid-template-rows: 180px 180px ;
+}
+.a{
+	 background-image: url("abundance.gif");
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.a:hover{
+	 background-image: url("prettylegs.gif");
+}
+.b{
+	 background-image: url("luv5.gif");
+  grid-column: 2;
+  grid-row: 1;
+}
+.b:hover{
+	 background-image: url("luv4.gif");
+}
+.c{
+	 background-image: url(blink.gif);
+  grid-column: auto;
+  grid-row: auto;
+}
+.c:hover{
+	 background-image: url("blue.gif");
+}
+.d{
+	 background-image: url(luv3.gif);
+  grid-column: auto;
+  grid-row: auto;
+}
+.d:hover{
+	 background-image: url("brains.gif");
+}
 .footing {
 	width:100vw;
 	height: 20vh;
-	background: #E12480;
+	background: #E8D900;
 	padding: 0vw;
 	padding: 0vh;
 }
