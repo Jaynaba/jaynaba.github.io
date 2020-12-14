@@ -1,0 +1,473 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+ margin: 0;
+    text-align: center;
+  background-color: #F4CC13;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+}
+.heading {
+	width:100vw;
+	height: 20%;
+	background:#F4CC13;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.content{
+	width:100vw;
+	height: 80%;
+	background:#F4CC13;
+	padding: 0vw;
+	padding: 0vh;
+	display: flex;
+}
+
+/*aesthetic division of three sections, colors complimenting the heading color*/
+
+.first {
+	width:33vw;
+	height: 80vh;
+	background:#0D4C51;
+	padding: 0vw;
+	padding: 0vh;
+}
+.font1 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	margin-top: 40vh;
+  text-align: center;
+	vertical-align: middle;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  color: #F4CC13;
+	
+}
+
+.photo button  {
+	width: 0;
+	height:0 ;
+	border-left: 20px solid transparent ;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #F9D62B;
+	background-color: transparent;
+	 border-bottom: 0px solid transparent;
+	padding: 0;
+    cursor:pointer;
+	overflow: hidden;
+	
+}
+button:focus {outline:0;}	
+.second  {
+	width:33vw;
+	height: 80vh;
+	background:#C2C9C1;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.mot button  {
+	width: 0;
+	height:0 ;
+	border-left: 20px solid transparent ;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #0D4C51;
+	background-color: transparent;
+	 border-bottom: 0px solid transparent;
+	padding: 0;
+    cursor:pointer;
+	overflow: hidden;
+	
+}
+button:focus {outline:0;}	
+.font2 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	margin-top: 40vh;
+  text-align: center;
+	vertical-align: middle;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  color: #0D4C51;
+}
+.font25 {
+	display: block;
+  margin-left: auto;
+  margin-right: 0;
+  width: 20%;
+	margin-top: 0vh;
+  text-align: center;
+	vertical-align: middle;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  color: #0D4C51;
+}
+.third  {
+	width:33vw;
+	height: 80vh;
+	background:#2E9393;
+	padding: 0vw;
+	padding: 0vh;
+}
+
+.font3 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+	margin-top: 40vh;
+  text-align: center;
+	vertical-align: middle;
+ font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  color: #C2C9C1;
+}
+.ill button  {
+	width: 0;
+	height:0 ;
+	border-left: 20px solid transparent ;
+	border-right: 20px solid transparent;
+	border-top: 30px solid #C2C9C1;
+	background-color: transparent;
+	 border-bottom: 0px solid transparent;
+	padding: 0;
+    cursor:pointer;
+	overflow: hidden;
+	
+}
+button:focus {outline:0;}
+/*buttons in shape and direction of downward triangle to indicate elements below*/
+.content2{
+	width:100vw;
+	height: 80vh;
+	background:#C2C9C1;
+	padding: 0vw;
+	padding: 0vh;
+	display: flex;
+}
+/*gray background so vibrancy of colors isn't compromised*/
+.circle1{
+	background: #db5858;
+    border-radius: 100%;
+    width: 420px;
+    height: 400px;
+	z-index:1;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+.circle1:hover {
+	background: #8c0e0e
+}
+.circle2{
+	background: #db8c58;
+    border-radius: 100%;
+    width: 410px;
+    height: 390px;
+	z-index:2;
+}
+
+.circle2:hover {
+	background: #8c0e0e
+}
+.circle3{
+	background: #dbb658;
+    border-radius: 100%;
+    width: 400px;
+    height: 380px;
+	z-index:3;
+}
+.circle3:hover {
+	background: #8c0e0e
+}
+.circle4{
+	background: #d3db58;
+    border-radius: 100%;
+    width: 390px;
+    height: 370px;
+	z-index:4;
+}
+
+.circle4:hover {
+	background: #8c0e0e
+}
+.circle5{
+	background: #b2db58;
+    border-radius: 100%;
+    width: 380px;
+    height: 360px;
+	z-index:5;
+}
+
+.circle5:hover {
+	background: #8c0e0e
+}
+.circle6{
+	background: #8cdb58;
+    border-radius: 100%;
+    width: 370px;
+    height: 350px;
+	z-index:6;
+}
+
+.circle6:hover {
+	background: #8c0e0e
+}
+.circle7{
+	background: #58db70;
+    border-radius: 100%;
+    width: 360px;
+    height: 340px;
+	z-index:7;
+}
+
+.circle7:hover {
+	background: #8c0e0e
+}
+.circle8{
+	background: #58dbd0;
+    border-radius: 100%;
+    width: 350px;
+    height: 330px;
+	z-index:8;
+}
+
+.circle8:hover {
+	background: #8c0e0e
+}
+.circle9{
+	background: #58cadb;
+    border-radius: 100%;
+    width: 340px;
+    height: 320px;
+	z-index:9;
+}
+
+.circle9:hover {
+	background: #8c0e0e
+}
+.circle10{
+	background: #58a9db;
+    border-radius: 100%;
+    width: 330px;
+    height: 310px;
+	z-index:10;
+}
+
+.circle10:hover {
+	background: #8c0e0e
+}
+.circle11{
+	background: #588cdb;
+    border-radius: 100%;
+    width: 320px;
+    height: 300px;
+	z-index:11;
+}
+
+.circle11:hover {
+	background: #8c0e0e
+}
+.circle12{
+	background: #5867db;
+    border-radius: 100%;
+    width: 310px;
+    height: 290px;
+	z-index:12;
+}
+.circle12:hover {
+	background: #8c0e0e
+}
+.circle13{
+	background: #7458db;
+    border-radius: 100%;
+    width: 300px;
+    height: 280px;
+	z-index:13;
+}
+
+.circle13:hover {
+	background: #8c0e0e
+}
+.circle14{
+	background: #9a58db;
+    border-radius: 100%;
+    width: 290px;
+    height: 270px;
+	z-index:14;
+}
+.circle14:hover {
+	background: #8c0e0e
+}
+.circle15{
+	background: #bf58db;
+    border-radius: 100%;
+    width: 280px;
+    height: 260px;
+	z-index:15;
+}
+.circle15:hover {
+	background: #8c0e0e
+}
+.circle16{
+	background: #db58bf;
+    border-radius: 100%;
+    width: 270px;
+    height: 250px;
+	z-index:16;
+}
+.circle16:hover {
+	background: #8c0e0e
+}
+.circle17{
+	background: #db588a;
+    border-radius: 100%;
+    width: 260px;
+    height: 240px;
+	z-index:17;
+}
+.circle17:hover {
+	background: #8c0e0e
+}
+
+.circle18{
+	background: #db588a;
+    border-radius: 100%;
+
+    width: 250px;
+    height: 230px;
+	z-index:18;
+}
+.circle18:hover {
+	background: #8c0e0e
+}
+/*pallid rainbow + hover for to give off optical effect + participatory for users*/
+.content3 {
+	width:100vw;
+	height: 80vh;
+	background: #EAC928;
+	padding: 0vw;
+	padding: 0vh;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 360px 360px ;;
+	grid-template-rows: 180px 180px ;
+}
+.a{
+	 background-image: url("abundance.gif");
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.a:hover{
+	 background-image: url("prettylegs.gif");
+}
+.b{
+	 background-image: url("luv5.gif");
+  grid-column: 2;
+  grid-row: 1;
+}
+.b:hover{
+	 background-image: url("luv4.gif");
+}
+.c{
+	 background-image: url(blink.gif);
+  grid-column: auto;
+  grid-row: auto;
+}
+.c:hover{
+	 background-image: url("blue.gif");
+}
+.d{
+	 background-image: url(luv3.gif);
+  grid-column: auto;
+  grid-row: auto;
+}
+.d:hover{
+	 background-image: url("brains.gif");
+}
+
+.content4{
+	width:100vw;
+	height: 80%;
+	background:white;
+	padding: 0vw;
+	padding: 0vh;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px ;
+}
+.col1{
+	background: red;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 1;
+  grid-row: 1;
+}
+.col2{
+	background: #FF00FF;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 2;
+  grid-row: 1;
+}
+
+.col3{
+	background: blue;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 3;
+  grid-row: 1;
+}
+
+.col4{
+	background: yellow;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 1;
+  grid-row: 2;
+}
+
+.col5{
+	background: green;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 2;
+  grid-row: 2;
+}
+
+.col6{
+	background: cyan;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+	grid-column: 3;
+  grid-row: 2;
+}
+
+/*push elements + instructions to left so users have ample space for optical experiment */
+.font4 {
+	display: block;
+  margin-left: 0;
+  margin-right: 300px;
+  width: 30vw;
+	margin-top: 0vh;
+  text-align: left;
+	vertical-align: middle;
+  font-family: Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace';
+  color: #0D4C51;
+}
