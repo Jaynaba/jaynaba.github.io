@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #f5f5f5
+}
+@media screen and (min-width: 600px) {
+.aboutcon{
+	display: grid;
+	margin: auto;
+	height: 600px;
+	width: 750px;
+	grid-template-columns: repeat(7, 1fr);
+	grid-template-rows: repeat(6, 1fr);	
+	border-radius: 10px black;
+	grid-gap: 10px;
+}
+
+
+.j{
+	background-color: #f5c71a;
+	grid-column:1.75 /2;
+	grid-row: 1 / 2;
+	border-top: thick #000000;
+	
+	
+	
+}
+.tabs {
+	background-color: #FF0000;
+	grid-column:2 /4;
+	grid-row: 1 / 2
+}
+.bio {
+	background-color: #FFFFFF ;
+	grid-column:1 /4;
+	grid-row: 2 / 7
+}
+.photo{
+	background-color: #0C4299;
+	grid-column:4 /8;
+	grid-row: 1 / 7
+}
+}
+
+@media screen and (max-width: 599px) {
+	.phonecon {
+	display: grid;
+	margin: auto;
+	height: 90vh;
+	width: 95vw;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: repeat(6, 1fr);	
+	border-radius: 10px black;
+	grid-gap: 10px;
+	}
+	
+	.pj{
+	background-color: #EDB100;
+	grid-column:1 /2;
+	grid-row: 1 / 2;
+	border-top: thick #000000;	
+}
+.ptabs {
+	background-color: #FF0000;
+	grid-column:2 /4;
+	grid-row: 1 / 2
+}
+.pbio {
+	background-color: #FFFFFF;
+	grid-column:1 /4;
+	grid-row: 4 / 7
+}
+.pphoto{
+	background-color: #0C4299;
+	grid-column:1 / 4;
+	grid-row: 2 / 4
+}	
+}
