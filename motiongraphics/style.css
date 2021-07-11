@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #DAE0E3;
+}
+@media screen and (min-width: 1081px) {
+.heading {
+	height: 140px;
+	width: 1080px;
+	padding: 0;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(30, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	grid-gap: 5px;	
+}
+.j{
+	background-color: black;
+	grid-column: 1 / 5;
+	grid-row: 1 / 5;
+}
+.tabs {
+	background-color: black;
+	grid-column: 5 / 10;
+	grid-row: 1 / 5;
+}
+.title {
+	background-color: black;
+	grid-column: 12 / 31;
+	grid-row: 1 / 5;
+}
+.bim {
+	display: grid;
+	margin: auto;
+	height: 1080px;
+	width: 1080px;
+	grid-template-columns: repeat(31, 1fr);
+	grid-template-rows: repeat(30, 1fr);	
+	grid-gap: 12px;
+}
+
+.m5 {
+	background-color:#2BBBE3 ;
+	background-image: url("abundance.gif");
+	grid-column: 1 / 21;
+	grid-row:1 / 12 ;
+}
+
+.m2 {
+	background-color: #D61C92 ;
+	background-image: url("blink.gif");
+	grid-column: 21 / 32 ;
+	grid-row: 1 / 11;		
+}
+
+.m3 {
+	background-color: #6BBF9B ;
+	background-image: url("luv5.gif");
+	grid-column: 1 / 13 ;
+	grid-row: 12/ 23 ;		
+}
+
+.m4{
+	background-color: #54E3F0 ;
+	background-image: url("blue.gif");
+	grid-column: 13 / 21;
+	grid-row: 	12 / 18;	
+}.m6 {
+	background-color:#F02943 ;
+	background-image: url("verde.gif");
+	grid-column: 21 / 32;
+	grid-row:11 / 22 ;
+	border: 3px #000000;
+}
+
+.m7 {
+	background-color: #D90000 ;
+	background-image: url("luv2.gif");
+	grid-column: 1 / 13 ;
+	grid-row: 23/ 31 ;		
+}
+.m8 {
+	background-color: #183BBA ;
+	background-image: url("lakes.gif");
+	grid-column: 13 / 21 ;
+	grid-row: 18/ 31 ;		
+}
+
+.m1{
+	background-color: #EBC015 ;
+	background-image: url("brains.gif");
+	grid-column: 21 / 32;
+	grid-row: 	22 / 31;	
+	}}
+
+@media screen and (max-width: 1080px) {
+	
+	/*body {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  /* for Firefox * scrollbar-width: none;/
+  overflow-y: scroll; }*/
+	/*body::-webkit-scrollbar {
+  display: none;
+}*/
+	.pheading {
+	height: 140px;
+	width: 450px;
+	margin: auto;
+	display: grid;
+	grid-template-columns:  1fr 2fr;
+	grid-template-rows:  1fr;
+	grid-gap: 5px;	
+}
+	.pj{
+	background-color: #57BAD4;
+	grid-column: 1 / 2 ;
+	grid-row: 1 / 2 ;
+}
+.ptabs {
+	background-color: #5AAF9C;
+	grid-column: 2 / 4;
+	grid-row: 1 / 2 ;
+}
+	
+	/*.thework{
+	background: #DEB300;
+	position: inherit;
+    margin-top: 16vh;
+	overflow-x: auto;
+	height: 480px;
+	width: 480px ;
+	}*/
+		
+	.stuff {
+	 margins: auto;
+	height: 2800px;
+	width:94vw ;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+	}
+	
+	.pm5 {
+	background-color:#2BBBE3 ;
+	background-image: url("abundance.gif");
+	height: 280px;
+	width: 480px ;
+
+}
+
+  .pm2 {
+	background-color: #D61C92 ;
+	 background-image: url("blink.gif");
+	height: 360px;
+	width: 360px;
+}
+
+.pm3 {
+	background-color: #6BBF9B ;
+	background-image: url("luv5.gif");
+	height: 360px;
+	width: 400px ;
+}
+
+.pm4{
+	background-color: #54E3F0 ;
+	background-image: url("blue.gif");
+	height: 260px;
+	width: 480px ;	
+}.pm6 {
+	background-color:#F02943 ;
+	background-image: url("verde.gif");
+	height: 360px;
+	width: 400px ;
+}
+
+.pm7 {
+	background-color: #D90000 ;
+	background-image: url("luv2.gif");
+	height: 260px;
+	width: 480px ;	
+}
+.pm8 {
+	background-color: #183BBA ;
+	background-image: url("lakes.gif");
+	height: 500px;
+	width: 360px ;	
+}
+
+.pm1{
+	background-color: #EBC015 ;
+	background-image: url("brains.gif");
+	height: 360px;
+	width: 480px ;	
+	}
+	
+    /*.idontknow {
+	background-color: navajowhite;
+	width: 190vw;
+	height: 30vh ;
+	margin: auto;
+	overflow-y: hidden;}*/
