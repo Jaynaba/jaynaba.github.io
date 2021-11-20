@@ -1,0 +1,323 @@
+@charset "utf-8";
+body {
+	background: #fff2cf;
+	margin:0;
+padding:0;
+overflow-y: hidden;
+}
+
+h1 {
+	font-family: "Tw Cen MT";
+    font-weight: bolder;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 16px;
+	/*background-color: #ffc800;*/
+}
+.bcent{
+	font-family: "Tw Cen MT";
+    font-weight: bolder;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+	color: #fff2cf;
+	position: fixed;
+  bottom: 5vh;
+  right: 0;
+	padding-left: 50vw;
+	padding-right: 50vw;
+	/*bottom: 100px;
+	margin-left: 50%;
+    margin-right: 50%;*/
+	z-index: 1;	
+}
+
+.cend {text-align: center;}
+
+button {
+   border:none;
+   background-color:transparent;
+   outline:none;
+}
+.thetop {
+	width: 375px;
+	height: 140px;
+	margin-left: auto;
+    margin-right: auto;
+	/*background-color: firebrick;*/
+	margin-top: 5px;
+}
+
+.three {
+	
+}
+.holder {
+	width: 29.62962962962963%;
+	height: 16.66666666666667% ;
+	position: relative;
+	 margin-left: auto;
+  margin-right: auto;
+	background-color: cornflowerblue;
+}
+
+.moving  {
+	/*padding-left: 130px;
+    padding-right: 130px;*/
+	float: none;
+	left: 48%;
+	position: absolute;
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #ffc800;
+	/*display: inline-block;*/
+}
+.moving:hover .moving-content {display: block;}
+
+.moving-content {
+  display: none;
+  position: absolute; 
+  background-color: red;
+  width: 82px; 
+  height: 36px;
+  border: solid 2px black;
+  z-index: 1;
+	
+}
+/*.moving-content a {
+  color: black;
+  padding: 6px;
+  font-family: "Agency FB";
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}*/
+
+.about {
+float: left;
+text-decoration: none;
+color: black;
+display: inline-block;
+position: relative;
+font-size: 20px
+}
+
+
+.about:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.about:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.still {
+float: right;
+}
+
+.loghol {
+	padding-top: 0.275%;
+	background-color: palevioletred;
+}
+
+.subhol {
+	padding-top: 0.06875%;
+	background-color: darkgoldenrod;
+}
+.container {
+   /*background-color: red;
+   position: relative;
+   padding-top: 56.25%;
+   margin-left: auto;
+   margin-right: auto;*/
+   object-fit: contain;
+}
+.vcent {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	margin-top: 0px;
+  width: 100%;
+  padding: none;
+  /*height: 80%;*/
+  object-fit: contain;
+/*height:720px*/
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: none;
+  /*height: 80%;*/
+  object-fit: contain;
+	
+} 
+.head {
+	/*height: calc(150px / 1080px * 100%);*/
+	width: 100%;
+	/*padding-top: 11.3%;*/
+	background-color: red;
+	margin: auto ;	
+	object-fit: contain;
+	position: relative;
+	
+}
+.video {
+	
+	position: absolute;
+}
+/*.vid {
+	padding-top: 66.66666666666667%;
+	width: 1080px;
+	background-color: sandybrown;
+	margin-left: auto;
+  margin-right: auto;
+	position: relative;
+} */
+.foot {
+	padding-top: 3.703703703703704% ;
+	width: 100% ;
+	background-color: palevioletred;
+	margin: auto ;
+	position: relative;
+}
+.pad {
+	position: relative;
+	display: inline-block;
+	width: 92px;
+}
+.vad {
+	position: relative;
+	display: inline-block;
+	width: 129px;
+}
+.dropbtn {
+	
+   float:none;
+	left: 48%;
+	position: relative;
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  display:inline-block;
+	
+}
+
+.dropdown-content {
+float: none;
+left: 48%;
+  display: none;
+  position: absolute;
+ min-width:  60px;
+  height: 50px;
+  z-index: 1;
+background: #fff2cf;
+
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  display: block;
+	
+}
+.dropdown-content a:hover {
+	/*background-color: #ffc800;*/
+  
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.ropbtn {
+	
+
+	position: relative;
+	font-family: "Agency FB";
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+display:inline;
+
+}
+
+.ropdown {
+  position: relative;
+  display:inline-block;
+  
+}
+
+.ropdown-content {
+float: right;
+  display: none;
+  position: absolute;
+ min-width:  60px;
+  height: 115px;
+  z-index: 1;
+	background: #fff2cf;
+
+
+}
+
+.ropdown-content a {
+  color: black;
+  padding: 2px;
+  text-decoration: none;
+  display: block;
+
+}
+.ropdown-content a:hover {
+	/*background-color: #ffc800;*/
+  /*border: 2px solid black;*/
+}
+.ropdown:hover .ropdown-content {display: block;}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: black;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
